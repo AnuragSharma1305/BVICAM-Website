@@ -1,0 +1,25 @@
+.blog-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-page-header.jpg);
+}
+
+/* Blog.css */
+
+.blog-page {
+    padding-top: 200px; /* Adjust this value as needed */
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the Navbar stays on top of other elements */
+  }
+
+  /* Blog.css */
+
+.btn-text {
+    font-size: 3.2rem; /* Adjust the font size as needed */
+  }
+  
+  

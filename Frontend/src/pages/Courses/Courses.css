@@ -1,0 +1,23 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/courses-page-header.jpg);
+}
+
+.courses-page .card-img-overlay {
+    background-color: rgba(5, 10, 35, 0.7);
+}
+
+.courses-page .card:hover {
+    cursor: pointer;
+}
+/* Courses.css */
+
+.courses-page {
+    padding-top: 60px; /* Adjust this value according to the height of your Navbar */
+  }
+  
+  @media (min-width: 768px) {
+    .courses-page {
+      padding-top: 100px; /* Adjust this value for larger screens if needed */
+    }
+  }
+  

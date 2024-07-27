@@ -1,0 +1,78 @@
+.home-page header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .home-page .text-section {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .home-page .carousel-section {
+    flex: 1;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%; /* Adjust this value as needed */
+    object-fit: cover;
+    object-position: center;
+  }
+  
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the fade-in animation to the header */
+  .header-animated {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the slide-in animation to the button */
+  .btn-animated {
+    animation: slideIn 1s ease-in-out;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the Get Explored button */
+  .btn-get-explored {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    border: none;
+  }
+  
+  .btn-get-explored:hover {
+    background-color: #c82333; /* Darker shade of Bootstrap danger color */
+  }
